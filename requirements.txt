@@ -54,7 +54,7 @@ six==1.16.0
 SQLAlchemy==1.4.23
 SQLAlchemy-Utils==0.37.8
 Unidecode==1.2.0
-urllib3==1.26.6
+urllib3==1.26.17
 vine==5.0.0
 wcwidth==0.2.5
 Werkzeug==2.0.1
