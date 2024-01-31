@@ -14,7 +14,7 @@ click-plugins==1.1.1
 click-repl==0.2.0
 dnspython==2.2.1
 email-validator==1.2.1
-Flask==2.1.2
+Flask==2.2.5
 Flask-Alembic==2.0.1
 flask-allows @ git+https://github.com/flaskbb/flask-allows.git@master#egg=flask-allows
 Flask-BabelPlus==2.2.0
@@ -34,21 +34,21 @@ flaskbb-plugin-portal==1.2.0
 greenlet==1.1.2
 idna==3.3
 itsdangerous==2.1.2
-Jinja2==3.1.2
+Jinja2==3.1.3
 kombu==5.2.4
 limits==2.6.3
 Mako==1.2.0
 MarkupSafe==2.1.1
 mistune==2.0.2
-Pillow==9.1.1
+Pillow==10.2.0
 pluggy==1.0.0
 prompt-toolkit==3.0.29
-Pygments==2.12.0
+Pygments==2.15.0
 PyJWT==2.4.0
 python-dateutil==2.8.2
 python-editor==1.0.4
 pytz==2022.1
-redis==4.3.3
+redis==4.3.6
 requests==2.27.1
 six==1.16.0
 SQLAlchemy==1.4.37
@@ -57,8 +57,9 @@ Unidecode==1.3.4
 urllib3==1.26.9
 vine==5.0.0
 wcwidth==0.2.5
-Werkzeug==2.1.2
+Werkzeug==2.3.8
 Whoosh==2.7.4
 WTForms==3.0.1
 WTForms-SQLAlchemy==0.3
 -e .
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
